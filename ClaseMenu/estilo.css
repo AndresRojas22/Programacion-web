@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #8a07a0;
+}
+
+.Boton {
+  padding: 20px;
+}
+
+.Boton li {
+  display: inline;
+}
+
+.Boton li a {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  background-color: black;
+}
+
+.Boton li a:hover {
+  /* Para cuando el mouse pase encima del elemento */
+  background-color: white;
+  color: black;
+}
+
+.Boton li a:active {
+  /* Para cuando se le de click al elemento */
+  background-color: grey;
+}

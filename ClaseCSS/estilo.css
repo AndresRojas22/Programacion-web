@@ -1,0 +1,21 @@
+p,
+h1 {
+  color: red;
+  font-family: Georgia;
+}
+
+#parrafo {
+  color: blueviolet;
+}
+
+/* Las clases si se pueden reutilizar e inician con un punto */
+.Parrafoclase {
+  color: darkgreen !important;
+}
+/* !important prioriza la jerarquia de estilos, mas no se recomienda utilizar */
+
+div h1 {
+  color: yellow;
+}
+/* Cuando se separan por una coma es que ambos elementos tendran ese estilo
+Mientras que si se ponen sin coma es que es como un "Hijo", o sea. Los h1 que esten en un div */
